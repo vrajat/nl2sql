@@ -1,0 +1,31 @@
+{
+  "template": "https://github.com/radix-ai/poetry-cookiecutter",
+  "commit": "3234dfa57986d20ca428bdc9e7e88e8887797c5d",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "package_name": "nl2sql",
+      "package_description": "An experiment to query a database using natural language",
+      "package_url": "https://github.com/vrajat/nl2sql",
+      "author_name": "Rajat Venkatesh",
+      "author_email": "vrajat",
+      "python_version": "3.8",
+      "development_environment": "simple",
+      "with_conventional_commits": "0",
+      "with_fastapi_api": "0",
+      "with_jupyter_lab": "0",
+      "with_pydantic_typing": "1",
+      "with_sentry_logging": "0",
+      "with_streamlit_app": "0",
+      "with_typer_cli": "1",
+      "continuous_integration": "GitHub",
+      "docstring_style": "Google",
+      "private_package_repository_name": "",
+      "private_package_repository_url": "",
+      "__package_name_kebab_case": "nl2sql",
+      "__package_name_snake_case": "nl2sql",
+      "_template": "https://github.com/radix-ai/poetry-cookiecutter"
+    }
+  },
+  "directory": null
+}
