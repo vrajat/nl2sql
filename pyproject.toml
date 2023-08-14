@@ -15,10 +15,11 @@ nl2sql = "nl2sql.cli:app"
 
 [tool.poetry.dependencies]  # https://python-poetry.org/docs/dependency-specification/
 pydantic = ">=1.10.7"
-python = ">=3.8,<4.0"
+python = ">=3.8.1,<4.0"
 typer = { extras = ["all"], version = ">=0.9.0" }
 openai = "^0.27.8"
 click-shell = "^2.1"
+langchain = "^0.0.263"
 
 [tool.poetry.group.test.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 black = ">=23.3.0"
